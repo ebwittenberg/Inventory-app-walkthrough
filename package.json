@@ -1,0 +1,21 @@
+{
+  "name": "inventory-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-es6-template-engine": "^2.1.7",
+    "pg-promise": "^8.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
